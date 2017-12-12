@@ -7,7 +7,8 @@ function start () {
   // The first example is done for you. Uncomment the line below and reload the browser.
   one()
   two()
-  three()  
+  three() 
+  makeVisible() 
   // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -26,4 +27,16 @@ function three () {
   three.classList.add('new')
 }
 
-// CREATE FUNCTION makeVisible HERE
+
+
+function makeVisible () {
+  var makeVisible = document.getElementsByClassName[0]
+  makevisible.classList.add('visible')
+}
+
+// if (elements && elements.length >= 1) {
+ // elements[0].classList.toggle('visible');
+
+ // var hiddenDiv = document.getElementsByClassName('invisible');
+ // hiddenDiv[0].classList.add('visible');
+//}//
