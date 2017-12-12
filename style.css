@@ -25,6 +25,10 @@ div.green {
   background-color: green;
 }
 
+div.new {
+  background-color: blanchedalmond;
+}
+
 .invisible {
   display: none;
 }
